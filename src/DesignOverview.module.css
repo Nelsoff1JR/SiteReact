@@ -1,0 +1,47 @@
+.mainOverview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+  grid-auto-rows: 94px;
+  grid-gap: 20px;
+  margin: 20px;
+}
+
+.overviewcard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+  
+}
+
+.overviewcard__icon__iconsCircle{
+  width: 70px;
+  height: 70px;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.overviewcard__info{
+  color: #11c5e8;
+}
+
+.overviewcard__info__divAlignP{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.overviewcard__info__divP{
+  margin-top: 2px;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+
+.overviewcard__info__divPSegundo{
+  color: gray;
+  margin-top: 0px;
+}
